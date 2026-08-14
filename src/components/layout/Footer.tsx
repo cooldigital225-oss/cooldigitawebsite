@@ -29,7 +29,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenQuoteModal }) 
               <img
                 src="/logo-white.png"
                 alt="CoolDigital 360°"
-                className="h-11 sm:h-12 w-auto max-w-[210px] sm:max-w-[240px] object-contain"
+                className="h-14 sm:h-16 w-auto max-w-[220px] sm:max-w-[260px] object-contain"
                 referrerPolicy="no-referrer"
               />
             </button>

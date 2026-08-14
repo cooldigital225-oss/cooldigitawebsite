@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <img
             src="/logo.png"
             alt="CoolDigital 360°"
-            className="h-11 sm:h-12 md:h-13 w-auto max-w-[210px] sm:max-w-[240px] object-contain transition-opacity group-hover:opacity-90"
+            className="h-14 sm:h-16 md:h-20 w-auto max-w-[220px] sm:max-w-[260px] md:max-w-[300px] object-contain transition-opacity group-hover:opacity-90"
             referrerPolicy="no-referrer"
           />
         </button>
