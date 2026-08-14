@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <!-- Cool Digital Emblem: Stylized C with Digital Tech Node & Spark -->
+  <path d="M21.5 10.5C20.2 8.3 17.8 7 15 7C10.6 7 7 10.6 7 15C7 19.4 10.6 23 15 23C17.8 23 20.2 21.7 21.5 19.5" 
+        stroke="#22C55E" 
+        stroke-width="3.6" 
+        stroke-linecap="round" />
+  <!-- Upper Spark Node -->
+  <path d="M22 15L23.2 13.8L24.4 15L23.2 16.2Z" fill="#22C55E" />
+  <circle cx="23.2" cy="15" r="1.2" fill="#22C55E" />
+  <circle cx="20.5" cy="15" r="0.9" fill="#22C55E" />
+  <!-- Secondary Accent Dot -->
+  <circle cx="23.2" cy="19.2" r="1" fill="#22C55E" />
+</svg>

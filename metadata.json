@@ -1,0 +1,6 @@
+{
+  "name": "Solutions & Services Digitales",
+  "description": "Site web professionnel pour entreprise de solutions digitales, maintenance informatique et formations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

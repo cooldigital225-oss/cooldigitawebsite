@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240">
+  <g id="logo-mark">
+    <!-- Top Line: Cooldigital 360° -->
+    <text x="300" y="115" text-anchor="middle" font-family="Plus Jakarta Sans, Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="72" font-weight="900" letter-spacing="-0.02em">
+      <tspan fill="#000000">Cooldigital</tspan>
+      <tspan dx="15" fill="#22C55E">360°</tspan>
+    </text>
+    <!-- Bottom Line: SOLUTION & SUPPORT IT -->
+    <text x="300" y="185" text-anchor="middle" font-family="Plus Jakarta Sans, Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="600" fill="#64748B" letter-spacing="0.28em">
+      SOLUTION &amp; SUPPORT IT
+    </text>
+  </g>
+</svg>
