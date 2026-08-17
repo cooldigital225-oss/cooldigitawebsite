@@ -31,7 +31,7 @@ export const Home: React.FC<HomeProps> = ({
           'formation informatique abidjan'
         ]}
       />
-      <Hero onOpenQuoteModal={() => onOpenQuoteModal()} />
+      <Hero onOpenQuoteModal={() => onOpenQuoteModal()} onNavigate={onNavigate} />
       <ValuePropSection onOpenQuoteModal={() => onOpenQuoteModal()} />
       <ServicesSection onNavigate={onNavigate} onOpenQuoteModal={onOpenQuoteModal} />
       <ProcessSection />
