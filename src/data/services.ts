@@ -51,6 +51,31 @@ export const SERVICES_DATA: ServiceItem[] = [
     ctaText: 'Demander une démonstration'
   },
   {
+    id: 'applications-web',
+    slug: 'applications-web',
+    title: 'Applications Web',
+    pole: 'solutions-digitales',
+    poleTitle: 'Solutions Digitales',
+    iconName: 'AppWindow',
+    shortDesc: 'Développement d’applications web modernes, interactives et sécurisées pour digitaliser vos processus métiers.',
+    fullDesc: 'Nous concevons des applications web sur-mesure (portails clients, espaces membres, plateformes SaaS, outils collaboratifs) accessibles sur tout support pour fluidifier vos opérations et offrir une expérience utilisateur exceptionnelle.',
+    benefits: [
+      'Accessibilité universelle 24/7 sur navigateur sans installation',
+      'Interface intuitive, réactive et optimisée pour tous les écrans',
+      'Sécurité renforcée des données et architecture évolutive',
+      'Intégration d’APIs tierces et de paiements en ligne / mobile money'
+    ],
+    includes: [
+      'Conception UX/UI moderne et ergonomique',
+      'Développement frontend et backend sécurisé',
+      'Gestion des utilisateurs, rôles et permissions',
+      'Intégration d’APIs et bases de données',
+      'Tests de performance, sécurité et compatibilité',
+      'Accompagnement au déploiement et formation'
+    ],
+    ctaText: 'Demander un devis application web'
+  },
+  {
     id: 'maintenance-depannage',
     slug: 'maintenance-depannage',
     title: 'Maintenance & Dépannage IT',
@@ -122,30 +147,5 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Attestation de suivi de formation'
     ],
     ctaText: 'Demander un programme de formation'
-  },
-  {
-    id: 'applications-web',
-    slug: 'applications-web',
-    title: 'Applications Web',
-    pole: 'solutions-digitales',
-    poleTitle: 'Solutions Digitales',
-    iconName: 'AppWindow',
-    shortDesc: 'Développement d’applications web modernes, interactives et sécurisées pour digitaliser vos processus métiers.',
-    fullDesc: 'Nous concevons des applications web sur-mesure (portails clients, espaces membres, plateformes SaaS, outils collaboratifs) accessibles sur tout support pour fluidifier vos opérations et offrir une expérience utilisateur exceptionnelle.',
-    benefits: [
-      'Accessibilité universelle 24/7 sur navigateur sans installation',
-      'Interface intuitive, réactive et optimisée pour tous les écrans',
-      'Sécurité renforcée des données et architecture évolutive',
-      'Intégration d’APIs tierces et de paiements en ligne / mobile money'
-    ],
-    includes: [
-      'Conception UX/UI moderne et ergonomique',
-      'Développement frontend et backend sécurisé',
-      'Gestion des utilisateurs, rôles et permissions',
-      'Intégration d’APIs et bases de données',
-      'Tests de performance, sécurité et compatibilité',
-      'Accompagnement au déploiement et formation'
-    ],
-    ctaText: 'Demander un devis application web'
   }
 ];
