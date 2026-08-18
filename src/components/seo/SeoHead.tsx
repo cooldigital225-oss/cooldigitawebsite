@@ -38,7 +38,7 @@ export const SeoHead: React.FC<SeoHeadProps> = ({
     const currentCleanPath = window.location.pathname.endsWith('/') && window.location.pathname !== '/'
       ? window.location.pathname.slice(0, -1)
       : window.location.pathname;
-    const baseUrl = COMPANY_INFO.websiteUrl || 'https://www.cooldigital.africa';
+    const baseUrl = COMPANY_INFO.websiteUrl || 'https://360.cooldigital.africa';
     const pageCanonical = canonicalUrl || `${baseUrl}${currentCleanPath}`;
 
     // 1. Update Document Title

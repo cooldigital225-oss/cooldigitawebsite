@@ -11,7 +11,7 @@ export const COMPANY_INFO = {
   city: "Abidjan",
   country: "Côte d'Ivoire",
   region: "Afrique de l'Ouest",
-  websiteUrl: "https://www.cooldigital.africa",
+  websiteUrl: "https://360.cooldigital.africa",
   workingHours: "Lun - Ven: 08h00 - 18h00 | Hotline d'Urgence IT 7j/7",
   responseTime: "< 15 - 30 minutes",
   isAvailableOnWhatsapp: true,
