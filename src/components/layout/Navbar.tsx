@@ -218,7 +218,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="inline-flex items-center justify-center p-2.5 rounded-lg text-emerald-600 bg-emerald-50 hover:bg-emerald-100 transition-colors"
             title="Discussion WhatsApp direct"
           >
-            <MessageSquare className="w-5 h-5" />
+            <img src="/icone whatsapp.ico" alt="WhatsApp" className="w-7 h-7" />
           </a>
 
           <Button
