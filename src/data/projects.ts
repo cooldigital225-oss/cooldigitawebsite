@@ -9,9 +9,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
     projectType: 'Projet réalisé',
     projectOwner: 'Cool Digital',
     targetSector: 'Établissements scolaires (Maternelle, Primaire, Secondaire, Supérieur)',
-    shortDescription: 'Solution SaaS de gestion administrative et financière conçue pour les établissements scolaires.',
+    shortDescription: 'Une solution de gestion administrative et financière conçue pour simplifier le fonctionnement des établissements scolaires.',
     objective: 'Éliminer la gestion manuelle sur registres papier et tableurs Excel, sécuriser les encaissements de scolarités et automatiser le suivi financier et comptable des écoles.',
-    solution: 'Développement d’une plateforme SaaS tout-en-un intégrant la gestion des élèves, l’encaissement multicanal avec reçus sécurisés et notification WhatsApp, le suivi caisse & banque, la paie des enseignants, 8 rapports financiers automatisés et un assistant IA d’aide à l’utilisation.',
+    solution: 'Développement d’une plateforme de gestion tout-en-un intégrant la gestion des élèves, l’encaissement multicanal avec reçus sécurisés et notification WhatsApp, le suivi caisse & banque, la paie des enseignants, 8 rapports financiers automatisés et un assistant IA d’aide à l’utilisation.',
     problemsList: [
       'Registres et cahiers papier : pertes, détériorations et absence de sauvegarde.',
       'Fichiers Excel dispersés : données cloisonnées, calculs manuels et risques d’erreurs.',
