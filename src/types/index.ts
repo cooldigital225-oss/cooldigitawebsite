@@ -118,12 +118,21 @@ export interface ProjectItem {
   category: string;
   categorySlug: 'sites-web' | 'logiciels' | 'maintenance' | 'community-management';
   projectType: string;
+  projectOwner?: string;
   targetSector: string;
+  shortDescription?: string;
   objective: string;
   solution: string;
   features: string[];
-  expectedResult: string;
+  featureCategories?: {
+    category: string;
+    items: string[];
+  }[];
+  problemsList?: string[];
+  benefits?: string[];
+  expectedResult?: string;
   image: string;
+  liveUrl?: string;
   // Backward compatibility optional aliases
   clientType?: string;
   clientName?: string;
