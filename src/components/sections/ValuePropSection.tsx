@@ -14,8 +14,8 @@ export const ValuePropSection: React.FC<ValuePropSectionProps> = ({ onOpenQuoteM
         <SectionHeader
           badgeText="Sérénité &amp; Simplicité"
           badgeVariant="green"
-          title="Gérer votre informatique et votre communication ne devrait pas être un casse-tête."
-          subtitle="Un ordinateur en panne bloque vos salariés. Un fichier Excel mal géré fait perdre des factures. Un site web inexistant vous fait perdre des clients. Ne perdez plus de temps entre plusieurs intervenants."
+          title="Gérer votre informatique et votre communication ne devrait pas être un casse‑tête."
+          subtitle="Pannes informatiques répétitives, gestion administrative complexe, manque de visibilité web... Ne perdez plus votre temps et votre énergie à coordonner une multitude de prestataires."
         />
 
         {/* Side by side comparison cards */}

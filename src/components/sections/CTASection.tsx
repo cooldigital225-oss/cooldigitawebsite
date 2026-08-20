@@ -22,7 +22,7 @@ export const CTASection: React.FC<CTASectionProps> = ({ onOpenQuoteModal }) => {
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6">
-          N'attendez pas que la prochaine panne vienne ralentir votre activité.
+          Propulsez votre activité et sécurisez votre infrastructure informatique au quotidien.
         </h2>
 
         <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-8 font-normal leading-relaxed">

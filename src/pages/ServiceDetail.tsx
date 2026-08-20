@@ -517,7 +517,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({
                 <p className="text-xs text-slate-500 mb-4">{recommendedPackage.tagline}</p>
 
                 <ul className="space-y-2 text-xs text-slate-700 mb-6">
-                  {recommendedPackage.features.slice(0, 4).map((f, i) => (
+                  {(recommendedPackage.features || recommendedPackage.creationPhase || []).slice(0, 4).map((f, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
                       <span>{f}</span>

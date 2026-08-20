@@ -107,7 +107,13 @@ export interface PackageItem {
   badge?: string;
   targetAudience: string;
   priceDisplay: string;
-  features: string[];
+  pricing: {
+    initialCreation: string;
+    monthlySubscription: string;
+  };
+  creationPhase: string[];
+  subscriptionPhase: string[];
+  features?: string[];
   isPopular?: boolean;
   ctaText: string;
 }
