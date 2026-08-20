@@ -31,8 +31,8 @@ export const Button: React.FC<ButtonProps> = ({
   };
 
   const sizes = {
-    sm: "text-xs px-3 py-2 min-h-[36px]",
-    md: "text-sm px-5 py-3 min-h-[44px]",
+    sm: "text-sm px-3 py-2 min-h-[36px]",
+    md: "text-base px-5 py-3 min-h-[44px]",
     lg: "text-base px-6 py-3.5 min-h-[48px]"
   };
 

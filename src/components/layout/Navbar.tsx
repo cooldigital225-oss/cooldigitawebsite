@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageSquare, Menu, X, ChevronDown, Phone, ShieldCheck, Wrench, Globe, LayoutGrid, AppWindow, Share2, GraduationCap } from 'lucide-react';
+import { MessageSquare, Menu, X, ChevronDown, Phone, Wrench, Globe, LayoutGrid, AppWindow, Share2, GraduationCap } from 'lucide-react';
 import { COMPANY_INFO } from '../../data/company';
 import { createWhatsappLink } from '../../utils/whatsapp';
 import { Button } from '../ui/Button';
@@ -97,7 +97,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             {servicesDropdownOpen && (
               <div className="absolute top-full left-0 w-80 bg-white rounded-xl shadow-xl border border-slate-200 p-3 pt-2 mt-1 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 px-3 py-1 mt-1">
+                <div className="text-xs font-bold uppercase tracking-wider text-slate-400 px-3 py-1 mt-1">
                   1. Solutions Digitales
                 </div>
                 <button
@@ -107,7 +107,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <Globe className="w-4 h-4 text-emerald-600 shrink-0" />
                   <div>
                     <div>Création de Sites Internet</div>
-                    <div className="text-[10px] font-normal text-slate-500">Sites vitrines &amp; e-commerce</div>
+                    <div className="text-xs font-normal text-slate-500">Sites vitrines &amp; e-commerce</div>
                   </div>
                 </button>
                 <button
@@ -117,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <LayoutGrid className="w-4 h-4 text-emerald-600 shrink-0" />
                   <div>
                     <div>Logiciels de Gestion</div>
-                    <div className="text-[10px] font-normal text-slate-500">Applications sur-mesure</div>
+                    <div className="text-xs font-normal text-slate-500">Applications sur-mesure</div>
                   </div>
                 </button>
                 <button
@@ -127,11 +127,11 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <AppWindow className="w-4 h-4 text-emerald-600 shrink-0" />
                   <div>
                     <div>Applications Web</div>
-                    <div className="text-[10px] font-normal text-slate-500">Portails &amp; plateformes métiers</div>
+                    <div className="text-xs font-normal text-slate-500">Portails &amp; plateformes métiers</div>
                   </div>
                 </button>
 
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 px-3 py-1 mt-2 border-t border-slate-100">
+                <div className="text-xs font-bold uppercase tracking-wider text-slate-400 px-3 py-1 mt-2 border-t border-slate-100">
                   2. Accompagnement Technique
                 </div>
                 <button
@@ -141,11 +141,11 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <Wrench className="w-4 h-4 text-amber-600 shrink-0" />
                   <div>
                     <div>Maintenance &amp; Dépannage IT</div>
-                    <div className="text-[10px] font-normal text-slate-500">Support d'urgence &amp; parc IT</div>
+                    <div className="text-xs font-normal text-slate-500">Support d'urgence &amp; parc IT</div>
                   </div>
                 </button>
 
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 px-3 py-1 mt-2 border-t border-slate-100">
+                <div className="text-xs font-bold uppercase tracking-wider text-slate-400 px-3 py-1 mt-2 border-t border-slate-100">
                   3. Compétences &amp; Visibilité
                 </div>
                 <button
@@ -155,7 +155,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <Share2 className="w-4 h-4 text-blue-600 shrink-0" />
                   <div>
                     <div>Community Management</div>
-                    <div className="text-[10px] font-normal text-slate-500">Gestion des réseaux sociaux</div>
+                    <div className="text-xs font-normal text-slate-500">Gestion des réseaux sociaux</div>
                   </div>
                 </button>
                 <button
@@ -165,7 +165,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <GraduationCap className="w-4 h-4 text-blue-600 shrink-0" />
                   <div>
                     <div>Formations Informatiques</div>
-                    <div className="text-[10px] font-normal text-slate-500">Bureautique &amp; IA</div>
+                    <div className="text-xs font-normal text-slate-500">Bureautique &amp; IA</div>
                   </div>
                 </button>
               </div>
@@ -211,24 +211,13 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Action Buttons Header */}
         <div className="hidden sm:flex items-center gap-2.5">
-          <a
-            href={createWhatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center p-2.5 rounded-lg text-emerald-600 bg-emerald-50 hover:bg-emerald-100 transition-colors"
-            title="Discussion WhatsApp direct"
-          >
-            <img src="/icone whatsapp.ico" alt="WhatsApp" className="w-7 h-7" />
-          </a>
-
-          <Button
-            variant="primary"
-            size="sm"
+          <button
+            type="button"
             onClick={() => onOpenQuoteModal()}
-            icon={<ShieldCheck className="w-4 h-4 text-emerald-400" />}
+            className="inline-flex items-center justify-center font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed select-none bg-[#0F172A] hover:bg-[#1E293B] text-white shadow-sm hover:shadow-md focus:ring-[#0F172A] text-sm px-3.5 py-2 min-h-[38px]"
           >
             Demander un Devis
-          </Button>
+          </button>
         </div>
 
         {/* Mobile Hamburger Toggle */}

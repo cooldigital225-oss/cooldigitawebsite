@@ -243,7 +243,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
                 </Button>
               </div>
 
-              <p className="text-[11px] text-center text-slate-500 mt-2">
+              <p className="text-xs text-center text-slate-500 mt-2">
                 🔒 Vos informations sont transmises directement sur le WhatsApp officiel de {COMPANY_INFO.name}.
               </p>
             </form>

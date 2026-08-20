@@ -15,7 +15,7 @@ export const MobileBar: React.FC<MobileBarProps> = () => {
           href={createWhatsappLink()}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 bg-[#22C55E] hover:bg-[#16A34A] text-white py-3 px-3 rounded-xl font-bold text-xs shadow-xs active:scale-98 transition-transform"
+          className="flex items-center justify-center gap-2 bg-[#22C55E] hover:bg-[#16A34A] text-white py-3 px-3 rounded-xl font-bold text-sm shadow-xs active:scale-98 transition-transform"
         >
           <MessageSquare className="w-4 h-4 shrink-0" />
           <span>WhatsApp Direct</span>
@@ -23,7 +23,7 @@ export const MobileBar: React.FC<MobileBarProps> = () => {
 
         <a
           href={`tel:${COMPANY_INFO.phoneRaw}`}
-          className="flex items-center justify-center gap-2 bg-[#0F172A] hover:bg-[#1E293B] text-white py-3 px-3 rounded-xl font-bold text-xs shadow-xs active:scale-98 transition-transform"
+          className="flex items-center justify-center gap-2 bg-[#0F172A] hover:bg-[#1E293B] text-white py-3 px-3 rounded-xl font-bold text-sm shadow-xs active:scale-98 transition-transform"
         >
           <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
           <span>Appeler Support</span>

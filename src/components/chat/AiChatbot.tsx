@@ -222,11 +222,11 @@ export const AiChatbot: React.FC<AiChatbotProps> = ({
               <div>
                 <div className="flex items-center gap-1.5">
                   <h3 className="font-extrabold text-sm text-white">CoolDigital 360°</h3>
-                  <span className="text-[10px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 px-1.5 py-0.5 rounded">
+                  <span className="text-xs font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 px-1.5 py-0.5 rounded">
                     IA
                   </span>
                 </div>
-                <p className="text-[11px] text-emerald-400 flex items-center gap-1">
+                <p className="text-xs text-emerald-400 flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
                   Assistant virtuel • En ligne
                 </p>
@@ -308,7 +308,7 @@ export const AiChatbot: React.FC<AiChatbotProps> = ({
                       <button
                         key={sIdx}
                         onClick={() => handleSuggestionClick(sugg)}
-                        className="text-[11px] font-medium py-1 px-2.5 rounded-full bg-white text-slate-700 border border-slate-200 hover:border-emerald-400 hover:text-emerald-700 hover:bg-emerald-50/50 transition-all shadow-2xs cursor-pointer"
+                        className="text-xs font-medium py-1 px-2.5 rounded-full bg-white text-slate-700 border border-slate-200 hover:border-emerald-400 hover:text-emerald-700 hover:bg-emerald-50/50 transition-all shadow-2xs cursor-pointer"
                       >
                         {sugg.label}
                       </button>
@@ -336,7 +336,7 @@ export const AiChatbot: React.FC<AiChatbotProps> = ({
           {/* Quick choices if chat is at start */}
           {messages.length === 1 && !isTyping && (
             <div className="px-4 py-2 border-t border-slate-100 bg-white">
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1.5">
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">
                 Choix rapides :
               </span>
               <div className="grid grid-cols-2 gap-1.5">
@@ -382,7 +382,7 @@ export const AiChatbot: React.FC<AiChatbotProps> = ({
 
           {/* Footer note */}
           <div className="px-3 py-1 bg-slate-100 border-t border-slate-200 text-center">
-            <span className="text-[10px] text-slate-500 font-medium">
+            <span className="text-xs text-slate-500 font-medium">
               Assistant officiel CoolDigital 360° • Koumassi, Abidjan
             </span>
           </div>

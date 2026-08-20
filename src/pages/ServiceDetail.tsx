@@ -287,7 +287,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({
                       {renderIcon(b.icon, "w-5 h-5")}
                     </div>
                     {b.metric && (
-                      <span className="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md text-[11px] font-extrabold">
+                      <span className="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md text-xs font-extrabold">
                         {b.metric}
                       </span>
                     )}
@@ -343,7 +343,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({
                   </ul>
                 </div>
 
-                <div className="pt-3 border-t border-slate-100 text-[11px] font-semibold text-slate-400">
+                <div className="pt-3 border-t border-slate-100 text-xs font-semibold text-slate-400">
                   Inclus dans la formule standard
                 </div>
               </div>
@@ -411,7 +411,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({
 
               <div className="bg-slate-800/90 rounded-2xl p-6 md:p-8 border border-slate-700 space-y-4">
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-700 pb-3">
-                  <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                  <span className="px-2.5 py-1 rounded-md text-xs font-extrabold uppercase bg-amber-500/20 text-amber-300 border border-amber-500/30">
                     [PROJET DE DÉMONSTRATION]
                   </span>
                   <span className="text-xs font-bold text-slate-300">
@@ -508,7 +508,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({
             {/* Recommended Package Card */}
             <div className="bg-white rounded-2xl border-2 border-emerald-500 p-6 shadow-md flex flex-col justify-between">
               <div>
-                <span className="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md text-[10px] font-extrabold uppercase mb-2 inline-block">
+                <span className="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md text-xs font-extrabold uppercase mb-2 inline-block">
                   Package Conseillé
                 </span>
                 <h3 className="text-lg font-extrabold text-[#0F172A] mb-1">
@@ -542,7 +542,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({
             {service.relatedServices.map((rel, idx) => (
               <div key={idx} className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs flex flex-col justify-between">
                 <div>
-                  <span className="px-2.5 py-1 bg-slate-100 text-slate-700 rounded-md text-[10px] font-extrabold uppercase mb-2 inline-block">
+                  <span className="px-2.5 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-extrabold uppercase mb-2 inline-block">
                     Service Associé
                   </span>
                   <h3 className="text-lg font-extrabold text-[#0F172A] mb-2">

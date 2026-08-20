@@ -113,6 +113,133 @@ export const PROJECTS_DATA: ProjectItem[] = [
     result: 'Plateforme centralisée, traçabilité financière totale, reçus sécurisés et pilotage en temps réel.'
   },
   {
+    id: 'site-vitrine-responsive',
+    title: 'Site internet vitrine responsive',
+    category: 'Création de sites internet',
+    categorySlug: 'sites-web',
+    projectType: 'Projet de démonstration',
+    projectOwner: 'Démonstration Cool Digital',
+    targetSector: 'PME / Entreprise',
+    shortDescription: 'Conception d’un site internet vitrine moderne, responsive et optimisé pour présenter une entreprise, ses services et ses moyens de contact.',
+    objective: 'Permettre à une entreprise de disposer d’une présence professionnelle en ligne et de faciliter la prise de contact avec ses prospects.',
+    solution: 'Conception d’un site vitrine moderne et responsive (adapté à l’ensemble des écrans mobiles, tablettes et ordinateurs), doté d’une navigation fluide, de boutons d’appel et WhatsApp directs, et de CTA stratégiques.',
+    featureCategories: [
+      {
+        category: '1. Architecture & Structure du site',
+        items: [
+          'Page d’accueil moderne et engageante',
+          'Présentation claire de l’entreprise',
+          'Présentation détaillée des services',
+          'Section réalisations & portfolio',
+          'Page À propos & Contact direct'
+        ]
+      },
+      {
+        category: '2. Prise de contact & Conversion',
+        items: [
+          'Intégration du bouton WhatsApp officiel',
+          'Boutons d’appel téléphonique direct',
+          'Formulaire de contact et demande de devis',
+          'Call-To-Action (CTA) de prise de contact'
+        ]
+      },
+      {
+        category: '3. Conception Responsive & Ergonomie',
+        items: [
+          'Design responsive haute fidélité',
+          'Adaptation mobile, tablette et ordinateur',
+          'Navigation claire, fluide et intuitive',
+          'Affichage optimisé pour connexion rapide'
+        ]
+      }
+    ],
+    features: [
+      'Page d’accueil',
+      'Présentation de l’entreprise',
+      'Présentation des services',
+      'Réalisations',
+      'À propos',
+      'Contact',
+      'Bouton WhatsApp',
+      'Design responsive',
+      'Adaptation mobile, tablette et ordinateur',
+      'Navigation claire',
+      'CTA de prise de contact'
+    ],
+    expectedResult: 'Présence professionnelle en ligne renforçant la crédibilité de l’entreprise et facilitant les prises de contact directes.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    clientType: 'Projet de démonstration',
+    clientName: 'Démonstration — Site Vitrine Responsive',
+    problem: 'Manque de visibilité professionnelle sur le web et absence de canal direct pour convertir les visiteurs.',
+    result: 'Site vitrine responsive, moderne et clair avec boutons WhatsApp et appels directs.'
+  },
+  {
+    id: 'site-web-sur-mesure-seo',
+    title: 'Site web sur-mesure — Pages dédiées par service & SEO',
+    category: 'Création de sites internet',
+    categorySlug: 'sites-web',
+    projectType: 'Projet de démonstration',
+    projectOwner: 'Démonstration Cool Digital',
+    targetSector: 'PME / Entreprise de services',
+    shortDescription: 'Conception d’un site web sur-mesure avec une architecture pensée autour des différents services de l’entreprise et une optimisation SEO adaptée à chaque page.',
+    objective: 'Construire une présence digitale plus complète permettant à chaque activité de l’entreprise de disposer de sa propre page et d’améliorer sa visibilité dans les moteurs de recherche.',
+    solution: 'Développement d’une plateforme web sur-mesure multi-pages avec une arborescence dédiée par service, des optimisations SEO on-page complètes (Title, Meta descriptions, URLs propres, données structurées) et des CTA ciblés.',
+    featureCategories: [
+      {
+        category: '1. Architecture & Pages par service',
+        items: [
+          'Page d’accueil structurée et orientée conversion',
+          'Pages dédiées à chaque service de l’entreprise',
+          'Pages de présentation détaillées des offres',
+          'Section réalisations & études de cas',
+          'Module FAQ interactif par catégorie',
+          'Page Contact complète et géolocalisée'
+        ]
+      },
+      {
+        category: '2. Optimisation SEO On-Page',
+        items: [
+          'SEO on-page sur l’ensemble des pages',
+          'Balises title personnalisées et optimisées',
+          'Meta descriptions rédigées pour le clic',
+          'URLs propres, courtes et sémantiques',
+          'Données structurées (Schema.org) intégrées'
+        ]
+      },
+      {
+        category: '3. Responsive & Conversion',
+        items: [
+          'Design 100% responsive multi-supports',
+          'CTA spécifiques contextualisés par service',
+          'Navigation optimisée avec maillage interne',
+          'Prise de contact rapide via WhatsApp & formulaire'
+        ]
+      }
+    ],
+    features: [
+      'Page d’accueil',
+      'Pages dédiées à chaque service',
+      'Pages de présentation détaillées',
+      'Réalisations / études de cas',
+      'FAQ',
+      'Contact',
+      'SEO on-page',
+      'Balises title personnalisées',
+      'Meta descriptions',
+      'URLs propres',
+      'Données structurées',
+      'Design responsive',
+      'CTA par service',
+      'Navigation optimisée'
+    ],
+    expectedResult: 'Plateforme web complète valorisant chaque pôle d’activité, avec une structure optimisée pour le référencement naturel et l’acquisition de leads.',
+    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80',
+    clientType: 'Projet de démonstration',
+    clientName: 'Démonstration — Site Web Sur-Mesure & SEO',
+    problem: 'Offre diversifiée difficile à valoriser sur un site mono-page et visibilité insuffisante sur les recherches ciblées.',
+    result: 'Architecture multi-pages optimisée SEO avec des pages dédiées par activité et parcours de contact direct.'
+  },
+  {
     id: '2',
     title: 'Solution de Gestion de Stock — Exemple pour entreprise de négoce',
     category: 'Logiciels sur-mesure',

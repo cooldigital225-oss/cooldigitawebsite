@@ -49,7 +49,7 @@ export const PackagesPage: React.FC<PackagesProps> = ({
               <div>
                 {/* Popular Ribbon */}
                 {pkg.isPopular && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-[11px] font-extrabold uppercase tracking-wider px-3.5 py-1 rounded-full flex items-center gap-1.5 shadow-md">
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-xs font-extrabold uppercase tracking-wider px-3.5 py-1 rounded-full flex items-center gap-1.5 shadow-md">
                     <Star className="w-3.5 h-3.5 fill-current" />
                     {pkg.badge}
                   </div>
@@ -58,7 +58,7 @@ export const PackagesPage: React.FC<PackagesProps> = ({
                 {/* Header Top & Badge */}
                 <div className="h-7 flex items-center mb-3">
                   {pkg.isPopular ? null : pkg.badge ? (
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-md bg-slate-100 text-slate-800 inline-block border border-slate-200">
+                    <span className="text-xs font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-md bg-slate-100 text-slate-800 inline-block border border-slate-200">
                       {pkg.badge}
                     </span>
                   ) : null}
@@ -82,13 +82,13 @@ export const PackagesPage: React.FC<PackagesProps> = ({
                 {/* Bloc Tarification */}
                 <div className="p-4 bg-slate-50/90 rounded-2xl border border-slate-200/80 mb-6 space-y-3">
                   <div className="flex items-center justify-between pb-2.5 border-b border-slate-200/70">
-                    <span className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">Création initiale :</span>
+                    <span className="text-xs font-bold text-slate-700 uppercase tracking-wider">Création initiale :</span>
                     <span className="text-sm font-extrabold text-[#0F172A] text-right">
                       {pkg.pricing.initialCreation}
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">Abonnement mensuel :</span>
+                    <span className="text-xs font-bold text-slate-700 uppercase tracking-wider">Abonnement mensuel :</span>
                     <span className="text-xs font-extrabold text-emerald-700 text-right">
                       {pkg.pricing.monthlySubscription}
                     </span>

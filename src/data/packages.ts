@@ -19,6 +19,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     ],
     subscriptionPhase: [
       "Support & Dépannage informatique (jusqu'à 2 postes)",
+      'Community Management (1 publication / semaine)',
       'Accès assistance WhatsApp rapide'
     ],
     features: [
@@ -26,6 +27,7 @@ export const PACKAGES_DATA: PackageItem[] = [
       'Intégration des boutons WhatsApp & Appel direct',
       'Configuration de la fiche Google My Business',
       "Support & Dépannage informatique (jusqu'à 2 postes)",
+      'Community Management (1 publication / semaine)',
       'Accès assistance WhatsApp rapide'
     ],
     isPopular: false,
@@ -43,7 +45,7 @@ export const PACKAGES_DATA: PackageItem[] = [
       monthlySubscription: 'À partir de 75 000 FCFA / mois (Maintenance & Communication)'
     },
     creationPhase: [
-      'Site web complet avec présentation des services',
+      'Site web sur-mesure (Pages dédiées par service & SEO)',
       'Développement du module/logiciel de gestion sur-mesure (Stock/Factures)',
       'Session de formation pratique pour vos équipes'
     ],
@@ -53,7 +55,7 @@ export const PACKAGES_DATA: PackageItem[] = [
       'Support prioritaire dédié sur WhatsApp'
     ],
     features: [
-      'Site web complet avec présentation des services',
+      'Site web sur-mesure (Pages dédiées par service & SEO)',
       'Développement du module/logiciel de gestion sur-mesure (Stock/Factures)',
       'Session de formation pratique pour vos équipes',
       "Contrat de Maintenance IT & Sécurité (jusqu'à 10 postes)",

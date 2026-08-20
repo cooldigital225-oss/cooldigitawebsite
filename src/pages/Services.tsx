@@ -92,7 +92,7 @@ export const ServicesPage: React.FC<ServicesProps> = ({
                           </p>
 
                           <div className="space-y-2 mb-6 pt-3 border-t border-slate-100">
-                            <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Périmètre inclus :</div>
+                            <div className="text-xs font-bold uppercase tracking-wider text-slate-400">Périmètre inclus :</div>
                             {service.includes.slice(0, 4).map((inc, i) => (
                               <div key={i} className="flex items-start gap-2 text-xs text-slate-700">
                                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />

@@ -65,7 +65,7 @@ export const ProcessSection: React.FC = () => {
                 </p>
               </div>
 
-              <div className="mt-6 pt-3 border-t border-slate-200/60 text-[11px] font-bold text-emerald-600 flex items-center gap-1">
+              <div className="mt-6 pt-3 border-t border-slate-200/60 text-xs font-bold text-emerald-600 flex items-center gap-1">
                 <span>Étape {idx + 1} sur 4</span>
               </div>
             </div>
