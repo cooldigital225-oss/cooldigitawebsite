@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://360.cooldigital.africa/sitemap.xml
+Sitemap: https://cooldigital.africa/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

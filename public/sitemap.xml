@@ -6,7 +6,7 @@
 
   <!-- Page d'Accueil -->
   <url>
-    <loc>https://360.cooldigital.africa/</loc>
+    <loc>https://cooldigital.africa/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- Catalogue des Services -->
   <url>
-    <loc>https://360.cooldigital.africa/services</loc>
+    <loc>https://cooldigital.africa/services</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
 
   <!-- Service 1: Création de sites internet -->
   <url>
-    <loc>https://360.cooldigital.africa/services/creation-site-internet</loc>
+    <loc>https://cooldigital.africa/services/creation-site-internet</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -30,7 +30,7 @@
 
   <!-- Service 2: Logiciels de gestion sur-mesure -->
   <url>
-    <loc>https://360.cooldigital.africa/services/logiciels-de-gestion</loc>
+    <loc>https://cooldigital.africa/services/logiciels-de-gestion</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -38,7 +38,7 @@
 
   <!-- Service 3: Maintenance informatique & Dépannage -->
   <url>
-    <loc>https://360.cooldigital.africa/services/maintenance-depannage</loc>
+    <loc>https://cooldigital.africa/services/maintenance-depannage</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -46,7 +46,7 @@
 
   <!-- Service 4: Community Management -->
   <url>
-    <loc>https://360.cooldigital.africa/services/community-management</loc>
+    <loc>https://cooldigital.africa/services/community-management</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -54,7 +54,7 @@
 
   <!-- Service 5: Formations informatiques -->
   <url>
-    <loc>https://360.cooldigital.africa/services/formations-informatiques</loc>
+    <loc>https://cooldigital.africa/services/formations-informatiques</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -62,7 +62,7 @@
 
   <!-- Page Réalisations / Projets -->
   <url>
-    <loc>https://360.cooldigital.africa/projects</loc>
+    <loc>https://cooldigital.africa/projects</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -70,7 +70,7 @@
 
   <!-- Page Offres & Packages -->
   <url>
-    <loc>https://360.cooldigital.africa/packages</loc>
+    <loc>https://cooldigital.africa/packages</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -78,7 +78,7 @@
 
   <!-- Page À Propos -->
   <url>
-    <loc>https://360.cooldigital.africa/about</loc>
+    <loc>https://cooldigital.africa/about</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -86,7 +86,7 @@
 
   <!-- Page Contact -->
   <url>
-    <loc>https://360.cooldigital.africa/contact</loc>
+    <loc>https://cooldigital.africa/contact</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
